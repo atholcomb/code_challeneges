@@ -1,0 +1,12 @@
+{"date": "11/12/2021", "login": "failed",  "user": "system", "mfa": "u2f", "uuid": {"id": "102138"}} 
+{"date": "02/15/2021", "login": "success", "user": "ath",    "mfa": "sms", "uuid": {"id": "574832"}}  
+{"date": "03/11/2021", "login": "success", "user": "pth",    "mfa": "u2f", "uuid": {"id": "702938"}}  
+{"date": "10/18/2021", "login": "failed",  "user": "system", "mfa": "u2f", "uuid": {"id": "902938"}}
+{"date": "05/10/2021", "login": "success", "user": "sys1",   "mfa": "sms", "uuid": {"id": "302955"}}
+{"date": "06/11/2021", "login": "success", "user": "system", "mfa": "sms", "uuid": {"id": "102932"}} 
+{"date": "07/19/2021", "login": "success", "user": "ath",    "mfa": "u2f", "uuid": {"id": "889420"}}  
+{"date": "08/14/2021", "login": "failed",  "user": "krn",    "mfa": "sms", "uuid": {"id": "574299"}}  
+{"date": "09/18/2021", "login": "success", "user": "nania",  "mfa": "u2f", "uuid": {"id": "774473"}}
+{"date": "10/17/2021", "login": "failed",  "user": "pth",    "mfa": "sms", "uuid": {"id": "000982"}}
+{"date": "11/15/2021", "login": "success", "user": "system", "mfa": "sms", "uuid": {"id": "423212"}} 
+{"date": "12/13/2021", "login": "success", "user": "nania",  "mfa": "sms", "uuid": {"id": "667543"}}
