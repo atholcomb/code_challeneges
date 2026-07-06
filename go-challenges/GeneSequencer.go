@@ -20,7 +20,7 @@ func main() {
   time.Sleep(2 * time.Second)     
 
   /* Number of sequences to be printed, up to 21 */
-  genomeSequencer(5)
+  genomeSequencer(21)
 }
 
 func genomeSequencer(count int) {
