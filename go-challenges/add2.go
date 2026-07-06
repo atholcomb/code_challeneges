@@ -1,6 +1,6 @@
 /*
-// written by: atholcomb
-// main.go
+// authored by: atholcomb
+// add2.go
 // Adds two numbers and outputs the sum
 */
 
@@ -11,13 +11,16 @@ import (
 )
 
 func main() {
-  var a_num int
-  var b_num int
+  fmt.Println(add2())
+}
 
-  fmt.Printf("Enter value 1: ")
-  fmt.Scanf("%v", &a_num)
-  fmt.Printf("Enter value 2: ")
-  fmt.Scanf("%v", &b_num)
+func add2() string {
+  var firstNum, secondNum int
 
-  fmt.Printf("Sum of %v + %v is: %v\n", a_num, b_num, a_num + b_num)
+  fmt.Printf("Enter the 1st number: ")
+  fmt.Scanf("%d", &firstNum)
+  fmt.Printf("Enter the 2nd number: ")
+  fmt.Scanf("%d", &secondNum)
+
+  return fmt.Sprintf("The total sum equals: %d", firstNum + secondNum)
 }
