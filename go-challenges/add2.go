@@ -1,7 +1,7 @@
 /*
-// authored by: atholcomb
-// add2.go
-// Adds two numbers and outputs the sum
+/* authored by: atholcomb
+/* add2.go
+/* Adds two numbers and outputs the sum
 */
 
 package main
