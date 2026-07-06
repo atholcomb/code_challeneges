@@ -20,10 +20,10 @@ func main() {
   time.Sleep(2 * time.Second)     
 
   /* Number of sequences to be printed, up to 21 */
-  genomeSequencer(21)
+  GeneSequencer(21)
 }
 
-func genomeSequencer(count int) {
+func GeneSequencer(count int) {
   /* store genome transcription letters */
   var genome = []string{"a", "t", "g", "c"}
 
