@@ -1,6 +1,6 @@
 /*
-/* Written By: atholcomb
-/* genomesequencer.go
+/* authored by: atholcomb
+/* GeneSequencer.go
 /* Outputs pseudo like DNA sequence strands 
 */
 
