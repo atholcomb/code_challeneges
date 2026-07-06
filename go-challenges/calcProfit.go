@@ -1,9 +1,9 @@
 /*
-// written by: atholcomb
-// main.go
-// You are given a dictionary containing the cost price per unit (in dollars), 
-// sell price per unit (in dollars), and the starting inventory. 
-// Return the total profit made, rounded to the nearest dollar.
+/* written by: atholcomb
+/* main.go
+/* You are given a dictionary containing the cost price per unit (in dollars), 
+/* sell price per unit (in dollars), and the starting inventory. 
+/* Return the total profit made, rounded to the nearest dollar.
 */
 
 package main
@@ -39,5 +39,5 @@ func calcProfit(p map[string]float64) string {
   costTotal = p["cost_price"] * p["inventory"]
   sellDebit = p["sell_price"] * p["inventory"]
   
-  return fmt.Sprintf("%.2f", sellDebit - costTotal)
+  return fmt.Sprintf("$%v - $%v = $%.2f", costTotal, sellDebit, sellDebit - costTotal)
 }
