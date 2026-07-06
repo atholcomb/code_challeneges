@@ -1,7 +1,7 @@
 /*
-// written by: atholcomb
-// main.go
-// returns the sum of two strings 
+/* authored by: atholcomb
+/* addStrings.go
+/* returns the sum of two strings 
 */
 
 package main
@@ -12,17 +12,22 @@ import (
 )
 
 func main() {
+  /* Call addStrings() function */
   fmt.Println(addStrings("111", "111"))
   fmt.Println(addStrings("10", "80"))
   fmt.Println(addStrings("", "20"))
 }
 
-func addStrings(n string, m string) string {
+func addStrings(n, m string) string {
+  /* Convert n and m to their integer representations */
   n1, _ := strconv.Atoi(n) 
   n2, _ := strconv.Atoi(m)
   
+  /* if parameter has an empty string, make it invalid */
   if n == "" || m == "" {
-    return "Invalid Operation"
+    return "Empty string - Invalid"
   }
-  return strconv.Itoa(n1 + n2)
+  
+  /* return the result with the initial values represented */
+  return fmt.Sprintf("%v + %v = Result: %v", n, m, strconv.Itoa(n1 + n2))
 }
