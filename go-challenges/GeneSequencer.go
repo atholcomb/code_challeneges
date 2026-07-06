@@ -24,12 +24,11 @@ func main() {
 }
 
 func genomeSequencer(count int) {
-  /* store DNA inscription letters in to genome variable */
+  /* store genome transcription letters */
   var genome = []string{"a", "t", "g", "c"}
 
   for i := 1; i < count; i++ {
-    /* Sleeps 1 second before generating new sequence */
-    time.Sleep(1 * time.Second)   
+    /* Generates new sequence */
     fmt.Printf("Sequence:%02d ", i)
 
     for j := 0; j < 15; j++ {
@@ -38,7 +37,8 @@ func genomeSequencer(count int) {
       fmt.Printf("%s", genome[choice])
     }
 
-  /* Prints 'validated sequence' once sequence is created */
+  /* Prints 'validated sequence' with a 1 second delay, once sequence is created */
+  time.Sleep(1 * time.Second)   
   fmt.Printf("%s", " -> Validated")
   fmt.Println()   // new line to return to
   }
